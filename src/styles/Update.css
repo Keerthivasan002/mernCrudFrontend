@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(2, 2, 2);
+}
+.upFirst{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* color: blueviolet; */
+    background: rgb(78, 54, 73);
+}
+.upSub{
+    display: flex;
+    flex-direction: column;
+    background:rgb(101, 1, 71);
+    padding: 30px;
+    margin: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.upHead{
+    font-size: 3cap;
+    color: rgb(242, 141, 18);
+    padding: 10px;
+    margin: 10px;
+    background:rgb(101, 1, 71);
+    
+}
+.upInputs{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px;
+    gap: 10px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 10px;
+    background: #e0eda6;
+    margin: 5px;
+    width: 300px;
+    font-size: 1rem;
+    outline: none;
+
+
+}
+
+.upSubmit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    
+}
+.upSubmit button{
+    background: rgb(238, 255, 0);
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    cursor: pointer;
+} 

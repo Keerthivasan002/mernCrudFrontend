@@ -1,0 +1,32 @@
+.Getall{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    width: 100%;
+}
+.Gethead{
+    display: flex;
+    flex-direction: column;
+    background: #f99a9a;
+    width: 300px;
+    padding: 30px;
+    font-size: 25px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.GetBut{
+    display: flex;
+    flex-direction: column;
+    background: #25013e;
+    color: rgb(255, 255, 255);
+    font: 2rem;
+    font-style: oblique;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}

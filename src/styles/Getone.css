@@ -1,0 +1,50 @@
+
+.getone{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    width: 100vw;
+    height: 100vh;
+    background: #422902;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{  
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+    width: 35%;
+    background: #f9f501;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(57, 1, 1);
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    column-gap: 40px;
+}
+.up{
+    background: #9800fe;
+    font: 1rem;
+    color: azure;
+    padding: 5px;
+}
+.del{
+    background: #cf0909d8;
+    color: aliceblue;
+    padding: 5px;
+}
+
